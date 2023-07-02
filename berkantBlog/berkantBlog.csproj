@@ -1,0 +1,76 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="wwwroot\vendor\jquery\**" />
+    <Content Remove="wwwroot\vendor\jquery\**" />
+    <EmbeddedResource Remove="wwwroot\vendor\jquery\**" />
+    <None Remove="wwwroot\vendor\jquery\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\assets\images\.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\assets\css\flex-slider.css" />
+    <None Include="wwwroot\assets\css\fontawesome.css" />
+    <None Include="wwwroot\assets\css\lightbox.css" />
+    <None Include="wwwroot\assets\css\owl.css" />
+    <None Include="wwwroot\assets\fonts\Flaticon.woff" />
+    <None Include="wwwroot\assets\fonts\flexslider-icon.eot" />
+    <None Include="wwwroot\assets\fonts\flexslider-icon.svg" />
+    <None Include="wwwroot\assets\fonts\flexslider-icon.ttf" />
+    <None Include="wwwroot\assets\fonts\flexslider-icon.woff" />
+    <None Include="wwwroot\assets\fonts\fontawesome-webfont.eot" />
+    <None Include="wwwroot\assets\fonts\fontawesome-webfont.svg" />
+    <None Include="wwwroot\assets\fonts\fontawesome-webfont.ttf" />
+    <None Include="wwwroot\assets\fonts\fontawesome-webfont.woff" />
+    <None Include="wwwroot\assets\fonts\fontawesome-webfont.woff2" />
+    <None Include="wwwroot\assets\fonts\FontAwesome.otf" />
+    <None Include="wwwroot\assets\fonts\slick.eot" />
+    <None Include="wwwroot\assets\fonts\slick.svg" />
+    <None Include="wwwroot\assets\fonts\slick.ttf" />
+    <None Include="wwwroot\assets\fonts\slick.woff" />
+    <None Include="wwwroot\assets\images\close.png" />
+    <None Include="wwwroot\assets\images\first-main-icon.png" />
+    <None Include="wwwroot\assets\images\first-white-icon.png" />
+    <None Include="wwwroot\assets\images\fourth-main-icon.png" />
+    <None Include="wwwroot\assets\images\fourth-white-icon.png" />
+    <None Include="wwwroot\assets\images\loading.gif" />
+    <None Include="wwwroot\assets\images\next.png" />
+    <None Include="wwwroot\assets\images\prev.png" />
+    <None Include="wwwroot\assets\images\right-image.jpg" />
+    <None Include="wwwroot\assets\images\second-main-icon.png" />
+    <None Include="wwwroot\assets\images\second-white-icon.png" />
+    <None Include="wwwroot\assets\images\third-main-icon.png" />
+    <None Include="wwwroot\assets\images\third-white-icon.png" />
+    <None Include="wwwroot\assets\js\custom.js" />
+    <None Include="wwwroot\assets\js\isotope.min.js" />
+    <None Include="wwwroot\assets\js\lightbox.js" />
+    <None Include="wwwroot\assets\js\owl-carousel.js" />
+    <None Include="wwwroot\vendor\bootstrap\css\bootstrap.css" />
+    <None Include="wwwroot\vendor\bootstrap\css\bootstrap.css.map" />
+    <None Include="wwwroot\vendor\bootstrap\css\bootstrap.min.css" />
+    <None Include="wwwroot\vendor\bootstrap\css\bootstrap.min.css.map" />
+    <None Include="wwwroot\vendor\bootstrap\js\bootstrap.bundle.js" />
+    <None Include="wwwroot\vendor\bootstrap\js\bootstrap.bundle.js.map" />
+    <None Include="wwwroot\vendor\bootstrap\js\bootstrap.bundle.min.js" />
+    <None Include="wwwroot\vendor\bootstrap\js\bootstrap.bundle.min.js.map" />
+    <None Include="wwwroot\vendor\bootstrap\js\bootstrap.js" />
+    <None Include="wwwroot\vendor\bootstrap\js\bootstrap.js.map" />
+    <None Include="wwwroot\vendor\bootstrap\js\bootstrap.min.js" />
+    <None Include="wwwroot\vendor\bootstrap\js\bootstrap.min.js.map" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Session" Version="2.2.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.13" />
+  </ItemGroup>
+
+</Project>
